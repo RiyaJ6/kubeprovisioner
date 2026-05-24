@@ -39,8 +39,8 @@ kubeprovisioner/
 │   │   └── diagnose_test.go
 │   └── netcheck/
 │       ├── dns.go             # DNS resolution + HTTP health check
-├── go.mod
-└── README.md
+├── README.md
+└── go.mod
 ```
 
 ---
