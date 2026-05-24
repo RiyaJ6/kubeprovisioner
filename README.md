@@ -29,7 +29,7 @@ or a blocked port on the customer's VPC).
 ## Project structure
 
 ```
-kube-provisioner/
+kubeprovisioner/
 ├── cmd/
 │   └── kp/
 │       └── main.go            # cobra root command + subcommand wiring
@@ -56,7 +56,7 @@ kube-provisioner/
 
 ```bash
 git clone https://github.com/RiyaJ6/kubeprovisioner
-cd kube-provisioner
+cd kubeprovisioner
 go build -o kp ./cmd/kp
 ```
 
