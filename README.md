@@ -34,15 +34,9 @@ kubeprovisioner/
 │   └── kp/
 │       └── main.go            # cobra root command + subcommand wiring
 ├── internal/
-│   ├── kube/
-│   │   ├── client.go          # client-go kubeconfig loader
-│   │   ├── nodes.go           # node state queries
-│   │   └── pods.go            # pod state queries
 │   ├── diagnose/
 │   │   ├── diagnose.go        # restart count + OOMKill + pending detection
 │   │   └── diagnose_test.go
-│   ├── report/
-│   │   └── report.go          # JSON report builder
 │   └── netcheck/
 │       ├── dns.go             # DNS resolution + HTTP health check
 │       └── dns_test.go
